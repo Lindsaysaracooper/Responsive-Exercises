@@ -1,0 +1,45 @@
+.tabs {
+    ul {
+        list-style: $list-style-none;
+        display: inline-flex;
+        width: 100%;
+        padding-left: 0;
+        li {
+            width: 18%;
+            padding: 1rem 6%;
+            margin-left: 0;
+            text-align: center;
+            &:hover{
+              background:$hover-color;
+
+            }
+            i {
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+}
+// removing the words from large size
+.tabs h2 {
+    display: none;
+}
+.tabs ul li:first-child {
+    border-top: 4px solid $font-color;
+    border-right: 2px solid $font-color;
+}
+.tabs {
+    .plane,
+    .sameicon {
+        border-top: solid 2px #C9CACA;
+        color: #C9CACA;
+         border-bottom: 2px solid $font-color;
+
+        }
+    }
+
+
+.sameicon{
+   border-right: solid 2px #C9CACA;
+
+ }

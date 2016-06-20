@@ -1,0 +1,137 @@
+body {
+  color: #47A3DA; }
+
+header {
+  margin-top: 3rem;
+  text-align: center; }
+  header ul {
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    font-size: 3rem; }
+    header ul li {
+      padding-right: 6%; }
+      header ul li:hover {
+        color: #95A7B5; }
+
+h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.4rem; }
+
+.question {
+  font-size: 0.14rem;
+  border: #47A3DA 2px solid;
+  border-radius: 68%;
+  width: 2%;
+  position: relative;
+  bottom: 2.6rem;
+  left: 5.6rem; }
+
+h1 {
+  width: 80%;
+  font-size: 2.2em;
+  margin: 0 0 0 13%;
+  font-weight: normal;
+  margin-bottom: 2rem; }
+
+.tabs ul {
+  list-style: none;
+  display: inline-flex;
+  width: 100%;
+  padding-left: 0; }
+  .tabs ul li {
+    width: 18%;
+    padding: 1rem 6%;
+    margin-left: 0;
+    text-align: center; }
+    .tabs ul li:hover {
+      background: #95A7B5; }
+    .tabs ul li i {
+      font-size: 1.5rem; }
+
+.tabs h2 {
+  display: none; }
+
+.tabs ul li:first-child {
+  border-top: 4px solid #47A3DA;
+  border-right: 2px solid #47A3DA; }
+
+.tabs .plane,
+.tabs .sameicon {
+  border-top: solid 2px #C9CACA;
+  color: #C9CACA;
+  border-bottom: 2px solid #47A3DA; }
+
+.sameicon {
+  border-right: solid 2px #C9CACA; }
+
+.food_items .border {
+  display: inline-block;
+  border: 3px solid #47A3DA;
+  padding: 2rem 0;
+  width: 60%;
+  text-align: center;
+  background: #47A3DA;
+  margin-left: 20%;
+  margin-top: 1rem; }
+  .food_items .border:hover {
+    background: #95A7B5; }
+  .food_items .border i {
+    border: 1px solid white;
+    border-radius: 52%;
+    font-size: 5rem;
+    padding: 5%;
+    background-color: white; }
+
+.food_items .text {
+  text-align: center;
+  display: inline;
+  position: relative;
+  top: 1rem; }
+
+@media all and (max-width: 840px) and (min-width: 511px) {
+  .food_items {
+    height: 13rem; }
+    .food_items .border {
+      float: left;
+      margin: 5%;
+      width: 40%; }
+
+  .food_items .text {
+    display: inline;
+    position: relative;
+    top: 2rem;
+    text-align: left;
+    width: 100%; }
+
+  .tabs h2 {
+    font-size: .5rem;
+    display: inline; } }
+@media all and (min-width: 840px) {
+  header h2, h1 {
+    position: inline;
+    text-align: left;
+    margin-left: 3%; }
+
+  header .question {
+    display: inline;
+    left: -29.4rem; }
+
+  header nav {
+    display: inline;
+    position: relative;
+    bottom: 5rem;
+    left: 40%; }
+
+  .food_items {
+    display: inline;
+    float: left;
+    width: 33%; }
+    .food_items .text {
+      display: inline;
+      text-align: left; }
+      .food_items .text h3, .food_items .text p {
+        width: 60%;
+        margin-left: 20%; } }
+
+/*# sourceMappingURL=sushi.css.map */

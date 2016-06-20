@@ -1,0 +1,88 @@
+$font-color: #47A3DA;
+$margin-none: 0;
+$list-style-none: none;
+$hover-color: #95A7B5;
+body {
+    color: $font-color;
+}
+header {
+    margin-top: 3rem;
+    text-align: center;
+    ul {
+        margin: $margin-none;
+        list-style: $list-style-none;
+        display: inline-flex;
+        font-size: 3rem;
+        li {
+            padding-right: 6%;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}
+h2 {
+    font-size: 1.1rem;
+    letter-spacing: 0.4rem;
+}
+.question {
+    font-size: 0.14rem;
+    border: #47A3DA 2px solid;
+    border-radius: 68%;
+    width: 2%;
+    position: relative;
+    bottom: 2.6rem;
+    left: 5.6rem;
+}
+h1 {
+    width: 80%;
+    font-size: 2.2em;
+    margin: 0 0 0 13%;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+@import 'navtab';
+@import 'foodtab';
+
+
+
+@media all and(min-width: 840px) {
+
+  header h2, h1{
+    position:inline;
+    text-align: left;
+    margin-left: 3%;
+
+  }
+
+  header .question{
+    display: inline;
+    left: -29.4rem;
+  }
+
+  header nav{
+    display:inline;
+    position: relative;
+bottom: 5rem;
+left: 40%;
+  }
+
+  .food_items{
+    display: inline;
+    float: left;
+    width: 33%;
+
+    .text{
+      display:inline;
+      text-align: left;
+
+
+      h3,p{
+        width:60%;
+        margin-left:20%;
+
+      }
+    }
+  }
+
+}

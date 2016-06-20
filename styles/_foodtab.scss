@@ -1,0 +1,54 @@
+.food_items {
+    .border {
+        display: inline-block;
+        border: 3px solid #47A3DA;
+        padding: 2rem 0;
+        width: 60%;
+        text-align: center;
+        background: #47A3DA;
+        margin-left: 20%;
+        margin-top: 1rem;
+        &:hover {
+            background: $hover-color;
+        }
+        i {
+            border: 1px solid white;
+            border-radius: 52%;
+            font-size: 5rem;
+            padding: 5%;
+            background-color: white;
+        }
+    }
+}
+.food_items {
+    .text {
+        text-align: center;
+        display: inline;
+        position: relative;
+        top: 1rem;
+    }
+}
+@media all and (max-width: 840px) and (min-width: 511px) {
+    .food_items {
+        height: 13rem;
+        .border {
+            float: left;
+            margin: 5%;
+            width: 40%;
+        }
+    }
+
+    .food_items .text {
+        display: inline;
+        position: relative;
+        top:2rem;
+        text-align: left;
+        width: 100%;
+
+    }
+
+    .tabs h2 {
+      font-size: .5rem;
+        display: inline;
+    }
+}
